@@ -31,9 +31,11 @@ public class Funcionario {
 
 	public static void main(String[] args) {
 		Funcionario alfredo = new Funcionario(3000);
-		// alfredo.adicionarBeneficios(new float[] {100, 150, 30, 80, 12, 3.5f});
-		alfredo.adicionarBeneficios(null);
-		alfredo.impostos(null, new float[] { 100 });
+		alfredo.adicionarBeneficios(new float[] { 100, 150, 30, 80, 12, 3.5f });
+
+//		A linha abaixo irá gerar um nullPointerException
+//		alfredo.adicionarBeneficios(null);
+		alfredo.impostos(new float[] { 200 }, new float[] { 100 });
 		System.out.println(alfredo.salario);
 	}
 

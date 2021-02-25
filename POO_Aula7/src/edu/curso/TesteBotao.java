@@ -41,7 +41,7 @@ public class TesteBotao extends Application {
 
 		pan.getChildren().addAll(lblTexto, btnOk);
 
-		stage.setTitle("Teste de Bot�o");
+		stage.setTitle("Teste de Botão");
 		stage.show();
 	}
 
