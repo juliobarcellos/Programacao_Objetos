@@ -33,7 +33,7 @@ public class AntenaTV {
 	}
 
 	public void exibeFrequenciaAtual() {
-		System.out.println("Frequ�ncia atual da antena: " + frequencia);
+		System.out.println("Frequência atual da antena: " + frequencia);
 	}
 
 	public void defineFrequencia(int frequencia) {

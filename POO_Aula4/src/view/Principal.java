@@ -6,6 +6,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 		new Aluno();
+		
 		Principal p = new Principal();
 		p.soma(5, 6, 1, 5);
 		p.soma(19, 11);

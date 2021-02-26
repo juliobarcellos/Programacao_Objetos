@@ -13,5 +13,11 @@ public class TestesStrings {
 		} else {
 			System.out.println("Diferentes");
 		}
+		
+		if (a.equals(b)) {
+			System.out.println("Iguais");
+		} else {
+			System.out.println("Diferentes");
+		}
 	}
 }
